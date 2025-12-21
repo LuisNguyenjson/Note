@@ -3,9 +3,7 @@ import os
 
 FILE_NAME = "data.json"
 
-# ---------------------------
-# LOAD & SAVE DATA
-# ---------------------------
+
 def load_data():
     if not os.path.exists(FILE_NAME):
         return {
